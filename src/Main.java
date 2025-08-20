@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Informe um número natural.");
         numeroNatural = scanner.nextInt();
         if(numeroNatural < 0) {
-            numeroNatural = converterParaNatural(numeroNatural, scanner);
+            numeroNatural = converterParaNaturalRecursivo(numeroNatural, scanner);
         }
         contarRegressivamenteRecursivo(numeroNatural);
     }
